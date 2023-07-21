@@ -502,6 +502,7 @@
             padding: 50px 0 90px;
             &_content {
                 grid-template-columns: 1fr;
+                gap: 0;
                 &-box {
                     gap: 0;
                 }
@@ -855,6 +856,14 @@
             }
         }
         @media (max-width: $xs-max) {
+            &_content {
+                &-textbox {
+                    .btn-contact {
+                        width: 100%;
+                        justify-content: center;
+                    }
+                }
+            }
         }
     }
 }
