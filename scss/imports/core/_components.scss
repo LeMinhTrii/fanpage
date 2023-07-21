@@ -1,0 +1,37 @@
+a {
+    text-decoration: none;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Varela+Round&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap");
+.heading-cpn {
+    font-size: 45px;
+    text-transform: capitalize;
+    font-family: "Varela Round", sans-serif;
+    line-height: 50px;
+    color: $blue-cl;
+    &.white {
+        color: $white-cl;
+    }
+    @media (max-width: $sm-max) {
+        // Tablet
+        font-size: 35px;
+        line-height: 40px;
+    }
+    @media (max-width: $xs-max) {
+        // Tablet
+        font-size: 30px;
+        line-height: 35px;
+    }
+}
+
+body {
+    font-size: 15px;
+    color: $gray-cl;
+    font-family: "Montserrat", sans-serif;
+}
+
+.exp .list .item {
+    list-style: disc;
+}
